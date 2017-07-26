@@ -1,0 +1,22 @@
+{
+  "name": "root/php-coding-challenge",
+  "description": "Php Coding Challenge",
+  "type": "project",
+  "require-dev": {
+    "phpunit/phpunit": "^6.2"
+  },
+  "authors": [
+    {
+      "name": "Naresh Maharjan",
+      "email": "nareshmaharzan@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Challenge\\": "src/"
+    }
+  }
+}
